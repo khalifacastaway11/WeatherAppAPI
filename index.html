@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="input-container">
+      <input type="text" id="country" placeholder="Enter country name">
+      <button onclick="getWeather()">Get Weather</button>
+    </div>
+    <div id="mycard" class="card">
+      <div id="weather_icon">
+        <i class="fa" id="weatherIcon" style="font-size: 170px; color: grey"></i>
+      </div>
+      <div id="citytemperature"></div>
+      <div id="cityname"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
